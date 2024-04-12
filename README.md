@@ -17,3 +17,6 @@ This setup effectively transforms your clipboard into a direct line to an AI mod
    - **Note:** You may want to tweak the key combination in `keylogger.py` to fit your preference.
 
 This approach allows you to summon AI assistance into any application. Whether you're coding, writing emails, or drafting documents.
+
+## Example
+![](https://github.com/Lukas-Liemen/UniversalCopilot/blob/main/example.gif)
