@@ -7,6 +7,7 @@ This setup effectively transforms your clipboard into a direct line to an AI mod
 ## How It Works
 1. **Server Side:** I host the FastAPI application on Google Colab. This is where the gemma-7B model processes incoming text. The code it not fixed on this specific model, you can basically change it to any model you want to.
    - **Note:** You'll need to fill in your ngrok authentication token
+   - **Note:** You'll need to fill in a SHA-256 representation of the API key that you want to use to allow the client to connect to your server
 
 2. **Local Script:** A background script on your local machine listens for a predefined key combination. When activated, it sends the clipboard's content to the server and handles the response.
    - **Note:** Enter the URL of your server in the `model.py` script where indicated. The URL should be printed to your server code once it is running.
